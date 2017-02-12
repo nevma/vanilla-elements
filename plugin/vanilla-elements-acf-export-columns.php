@@ -12,232 +12,16 @@
      */
     function vanilla_elements_acf_export_columns_register () {
 
-        acf_add_local_field_group( array (
+        $column_layouts = array();
+
+        $column_layouts = apply_filters( 'vanilla/elements/register-layouts', $column_layouts );
+
+        acf_add_local_field_group( array(
             'key' => 'group_5899b218a4323',
             'title' => '[Vanilla] 3. Columns',
-            'fields' => array (
-                array (
-                    'layouts' => array (
-                        array (
-                            'key' => '589b7a8200dc9',
-                            'name' => 'text',
-                            'label' => 'Text',
-                            'display' => 'table',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
-                                        0 => 'field_589b7802c355d',
-                                    ),
-                                    'prefix_label' => 0,
-                                    'prefix_name' => 0,
-                                    'display' => 'seamless',
-                                    'layout' => 'block',
-                                    'key' => 'field_589b7a8200dca',
-                                    'label' => 'Text clone',
-                                    'name' => 'text_clone',
-                                    'type' => 'clone',
-                                    'instructions' => '',
-                                    'required' => 0,
-                                    'conditional_logic' => 0,
-                                    'wrapper' => array (
-                                        'width' => '',
-                                        'class' => '',
-                                        'id' => '',
-                                    ),
-                                ),
-                            ),
-                            'min' => '',
-                            'max' => '',
-                        ),
-                        array (
-                            'key' => '589b7a2300dc7',
-                            'name' => 'rich_text',
-                            'label' => 'Rich text',
-                            'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
-                                        0 => 'field_589b7841c355f',
-                                    ),
-                                    'prefix_label' => 0,
-                                    'prefix_name' => 0,
-                                    'display' => 'seamless',
-                                    'layout' => 'block',
-                                    'key' => 'field_589b7a2300dc8',
-                                    'label' => 'Rich text clone',
-                                    'name' => 'rich_text_clone',
-                                    'type' => 'clone',
-                                    'instructions' => '',
-                                    'required' => 0,
-                                    'conditional_logic' => 0,
-                                    'wrapper' => array (
-                                        'width' => '',
-                                        'class' => '',
-                                        'id' => '',
-                                    ),
-                                ),
-                            ),
-                            'min' => '',
-                            'max' => '',
-                        ),
-                        array (
-                            'key' => '589cb68c89bd9',
-                            'name' => 'image',
-                            'label' => 'Image',
-                            'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
-                                        0 => 'field_589cb638b9999',
-                                    ),
-                                    'prefix_label' => 0,
-                                    'prefix_name' => 0,
-                                    'display' => 'seamless',
-                                    'layout' => 'block',
-                                    'key' => 'field_589cb68c89bda',
-                                    'label' => 'Image clone',
-                                    'name' => 'image_clone',
-                                    'type' => 'clone',
-                                    'instructions' => '',
-                                    'required' => 0,
-                                    'conditional_logic' => 0,
-                                    'wrapper' => array (
-                                        'width' => '',
-                                        'class' => '',
-                                        'id' => '',
-                                    ),
-                                ),
-                            ),
-                            'min' => '',
-                            'max' => '',
-                        ),
-                        array (
-                            'key' => '5899b2c58ac6a',
-                            'name' => 'slideshow',
-                            'label' => 'Slideshow',
-                            'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
-                                        0 => 'field_5899b2388ac66',
-                                        1 => 'field_5899b4618ac74',
-                                    ),
-                                    'prefix_label' => 0,
-                                    'prefix_name' => 0,
-                                    'display' => 'group',
-                                    'layout' => 'block',
-                                    'key' => 'field_589b7b77242e5',
-                                    'label' => 'Slideshow clone',
-                                    'name' => 'slideshow_clone',
-                                    'type' => 'clone',
-                                    'instructions' => '',
-                                    'required' => 0,
-                                    'conditional_logic' => 0,
-                                    'wrapper' => array (
-                                        'width' => '',
-                                        'class' => '',
-                                        'id' => '',
-                                    ),
-                                ),
-                            ),
-                            'min' => '',
-                            'max' => '',
-                        ),
-                        array (
-                            'key' => '589b63d6d447f',
-                            'name' => 'accordion',
-                            'label' => 'Accordion',
-                            'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
-                                        0 => 'field_5899b2388ac66',
-                                        1 => 'field_589b627a2ac78',
-                                    ),
-                                    'prefix_label' => 0,
-                                    'prefix_name' => 0,
-                                    'display' => 'group',
-                                    'layout' => 'block',
-                                    'key' => 'field_589b63e8d4485',
-                                    'label' => 'Accordion clone',
-                                    'name' => 'accordion_clone',
-                                    'type' => 'clone',
-                                    'instructions' => '',
-                                    'required' => 0,
-                                    'conditional_logic' => 0,
-                                    'wrapper' => array (
-                                        'width' => '',
-                                        'class' => '',
-                                        'id' => '',
-                                    ),
-                                ),
-                            ),
-                            'min' => '',
-                            'max' => '',
-                        ),
-                        array (
-                            'key' => '589b7346d4486',
-                            'name' => 'gallery',
-                            'label' => 'Gallery',
-                            'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
-                                        0 => 'field_589b647127cb7',
-                                    ),
-                                    'prefix_label' => 0,
-                                    'prefix_name' => 0,
-                                    'display' => 'seamless',
-                                    'layout' => 'block',
-                                    'key' => 'field_589b7346d4487',
-                                    'label' => 'Gallery clone',
-                                    'name' => 'gallery_clone',
-                                    'type' => 'clone',
-                                    'instructions' => '',
-                                    'required' => 0,
-                                    'conditional_logic' => 0,
-                                    'wrapper' => array (
-                                        'width' => '',
-                                        'class' => '',
-                                        'id' => '',
-                                    ),
-                                ),
-                            ),
-                            'min' => '',
-                            'max' => '',
-                        ),
-                        array (
-                            'key' => '589e146988b62',
-                            'name' => 'card',
-                            'label' => 'Card',
-                            'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
-                                        0 => 'field_589e1224135e4',
-                                    ),
-                                    'prefix_label' => 0,
-                                    'prefix_name' => 0,
-                                    'display' => 'seamless',
-                                    'layout' => 'block',
-                                    'key' => 'field_589e146988b63',
-                                    'label' => 'Card clone',
-                                    'name' => 'card_clone',
-                                    'type' => 'clone',
-                                    'instructions' => '',
-                                    'required' => 0,
-                                    'conditional_logic' => 0,
-                                    'wrapper' => array (
-                                        'width' => '',
-                                        'class' => '',
-                                        'id' => '',
-                                    ),
-                                ),
-                            ),
-                            'min' => '',
-                            'max' => '',
-                        ),
-                    ),
+            'fields' => array(
+                array(
+                    'layouts' => $column_layouts,
                     'min' => 0,
                     'max' => 0,
                     'button_label' => 'Add column content',
@@ -248,14 +32,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_5899b26a8ac68',
                     ),
                     'prefix_label' => 1,
@@ -269,14 +53,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_5899b26a8ac68',
                     ),
                     'prefix_label' => 1,
@@ -290,14 +74,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_5899b26a8ac68',
                     ),
                     'prefix_label' => 1,
@@ -311,14 +95,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_5899b26a8ac68',
                     ),
                     'prefix_label' => 1,
@@ -332,14 +116,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_5899b26a8ac68',
                     ),
                     'prefix_label' => 1,
@@ -353,14 +137,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_589bc7a447fbd',
                     ),
                     'prefix_label' => 1,
@@ -374,14 +158,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_589bc7a447fbd',
                         1 => 'field_589bcb1e47fbe',
                     ),
@@ -396,14 +180,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_589bc7a447fbd',
                         1 => 'field_589bcb1e47fbe',
                         2 => 'field_589bcb4047fbf',
@@ -419,14 +203,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_589bc7a447fbd',
                         1 => 'field_589bcb1e47fbe',
                         2 => 'field_589bcb4047fbf',
@@ -443,14 +227,14 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
-                array (
-                    'clone' => array (
+                array(
+                    'clone' => array(
                         0 => 'field_589bc7a447fbd',
                         1 => 'field_589bcb1e47fbe',
                         2 => 'field_589bcb4047fbf',
@@ -468,16 +252,16 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
                     ),
                 ),
             ),
-            'location' => array (
-                array (
-                    array (
+            'location' => array(
+                array(
+                    array(
                         'param' => 'post_type',
                         'operator' => '==',
                         'value' => 'post',

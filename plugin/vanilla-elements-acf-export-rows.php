@@ -21,7 +21,7 @@
         foreach ( $post_types as $post_type ) {
 
             $vanilla_elements_rows_locations[] = array(
-                array (
+                array(
                     'param' => 'post_type',
                     'operator' => '==',
                     'value' => $post_type
@@ -30,20 +30,20 @@
 
         }
 
-        acf_add_local_field_group( array (
+        acf_add_local_field_group( array(
             'key' => 'group_5899b21a2a5b4',
             'title' => '[Vanilla] 4. Rows',
-            'fields' => array (
-                array (
-                    'layouts' => array (
-                        array (
+            'fields' => array(
+                array(
+                    'layouts' => array(
+                        array(
                             'key' => '5899efef8c1b0',
                             'name' => 'single_column_row',
                             'label' => 'Single column row',
                             'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
+                            'sub_fields' => array(
+                                array(
+                                    'clone' => array(
                                         0 => 'field_589b5c4c88183',
                                         1 => 'field_589bcdba896be',
                                     ),
@@ -58,7 +58,7 @@
                                     'instructions' => '',
                                     'required' => 0,
                                     'conditional_logic' => 0,
-                                    'wrapper' => array (
+                                    'wrapper' => array(
                                         'width' => '',
                                         'class' => '',
                                         'id' => '',
@@ -68,14 +68,14 @@
                             'min' => '',
                             'max' => '',
                         ),
-                        array (
+                        array(
                             'key' => '589b81182bb59',
                             'name' => 'two_columns_row',
                             'label' => 'Two columns row',
                             'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
+                            'sub_fields' => array(
+                                array(
+                                    'clone' => array(
                                         0 => 'field_589b5c4c88183',
                                         1 => 'field_589bcdf7896bf',
                                     ),
@@ -90,7 +90,7 @@
                                     'instructions' => '',
                                     'required' => 0,
                                     'conditional_logic' => 0,
-                                    'wrapper' => array (
+                                    'wrapper' => array(
                                         'width' => '',
                                         'class' => '',
                                         'id' => '',
@@ -100,14 +100,14 @@
                             'min' => '',
                             'max' => '',
                         ),
-                        array (
+                        array(
                             'key' => '589b81c92bb5c',
                             'name' => 'three_columns_row',
                             'label' => 'Three columns row',
                             'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
+                            'sub_fields' => array(
+                                array(
+                                    'clone' => array(
                                         0 => 'field_589b5c4c88183',
                                         1 => 'field_589bce52896c0',
                                     ),
@@ -122,7 +122,7 @@
                                     'instructions' => '',
                                     'required' => 0,
                                     'conditional_logic' => 0,
-                                    'wrapper' => array (
+                                    'wrapper' => array(
                                         'width' => '',
                                         'class' => '',
                                         'id' => '',
@@ -132,14 +132,14 @@
                             'min' => '',
                             'max' => '',
                         ),
-                        array (
+                        array(
                             'key' => '589bd37c2d8d5',
                             'name' => 'four_columns_row',
                             'label' => 'Four columns row',
                             'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
+                            'sub_fields' => array(
+                                array(
+                                    'clone' => array(
                                         0 => 'field_589b5c4c88183',
                                         1 => 'field_589bcee4896c1',
                                     ),
@@ -154,7 +154,7 @@
                                     'instructions' => '',
                                     'required' => 0,
                                     'conditional_logic' => 0,
-                                    'wrapper' => array (
+                                    'wrapper' => array(
                                         'width' => '',
                                         'class' => '',
                                         'id' => '',
@@ -164,14 +164,14 @@
                             'min' => '',
                             'max' => '',
                         ),
-                        array (
+                        array(
                             'key' => '589bd39a2d8d7',
                             'name' => 'five_columns_row',
                             'label' => 'Five columns row',
                             'display' => 'block',
-                            'sub_fields' => array (
-                                array (
-                                    'clone' => array (
+                            'sub_fields' => array(
+                                array(
+                                    'clone' => array(
                                         0 => 'field_589b5c4c88183',
                                         1 => 'field_589bcf08896c3',
                                     ),
@@ -186,7 +186,7 @@
                                     'instructions' => '',
                                     'required' => 0,
                                     'conditional_logic' => 0,
-                                    'wrapper' => array (
+                                    'wrapper' => array(
                                         'width' => '',
                                         'class' => '',
                                         'id' => '',
@@ -207,7 +207,7 @@
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
-                    'wrapper' => array (
+                    'wrapper' => array(
                         'width' => '',
                         'class' => '',
                         'id' => '',
