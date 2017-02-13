@@ -8,7 +8,7 @@
      * 
      * @return void
      */
-    function vanilla_elements_acf_export_rows_register () {
+    function rows_register () {
 
         // The post types where the Vanilla elements are available.
         $post_types = array( 'page' );
@@ -36,6 +36,7 @@
             'fields' => array(
                 array(
                     'layouts' => array(
+                        // Single column row, a clone of row options and a single column contents.
                         array(
                             'key' => '5899efef8c1b0',
                             'name' => 'single_column_row',
@@ -48,7 +49,7 @@
                                         1 => 'field_589bcdba896be',
                                     ),
                                     'prefix_label' => 0,
-                                    'prefix_name' => 1,
+                                    'prefix_name' => 0,
                                     'display' => 'seamless',
                                     'layout' => 'block',
                                     'key' => 'field_5899f00079f70',
@@ -68,6 +69,7 @@
                             'min' => '',
                             'max' => '',
                         ),
+                        // Two columns row, a clone of row options and a two column contents.
                         array(
                             'key' => '589b81182bb59',
                             'name' => 'two_columns_row',
@@ -80,7 +82,7 @@
                                         1 => 'field_589bcdf7896bf',
                                     ),
                                     'prefix_label' => 0,
-                                    'prefix_name' => 1,
+                                    'prefix_name' => 0,
                                     'display' => 'seamless',
                                     'layout' => 'block',
                                     'key' => 'field_589b81182bb5a',
@@ -100,6 +102,7 @@
                             'min' => '',
                             'max' => '',
                         ),
+                        // Three columns row, a clone of row options and a three column contents.
                         array(
                             'key' => '589b81c92bb5c',
                             'name' => 'three_columns_row',
@@ -112,7 +115,7 @@
                                         1 => 'field_589bce52896c0',
                                     ),
                                     'prefix_label' => 0,
-                                    'prefix_name' => 1,
+                                    'prefix_name' => 0,
                                     'display' => 'seamless',
                                     'layout' => 'block',
                                     'key' => 'field_589b81c92bb5d',
@@ -132,6 +135,7 @@
                             'min' => '',
                             'max' => '',
                         ),
+                        // Four columns row, a clone of row options and a four column contents.
                         array(
                             'key' => '589bd37c2d8d5',
                             'name' => 'four_columns_row',
@@ -144,7 +148,7 @@
                                         1 => 'field_589bcee4896c1',
                                     ),
                                     'prefix_label' => 0,
-                                    'prefix_name' => 1,
+                                    'prefix_name' => 0,
                                     'display' => 'seamless',
                                     'layout' => 'block',
                                     'key' => 'field_589bd37c2d8d6',
@@ -164,6 +168,7 @@
                             'min' => '',
                             'max' => '',
                         ),
+                        // Five columns row, a clone of row options and a five column contents.
                         array(
                             'key' => '589bd39a2d8d7',
                             'name' => 'five_columns_row',
@@ -176,7 +181,7 @@
                                         1 => 'field_589bcf08896c3',
                                     ),
                                     'prefix_label' => 0,
-                                    'prefix_name' => 1,
+                                    'prefix_name' => 0,
                                     'display' => 'seamless',
                                     'layout' => 'block',
                                     'key' => 'field_589bd39a2d8d8',

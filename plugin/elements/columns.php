@@ -10,7 +10,7 @@
      * 
      * @return void
      */
-    function vanilla_elements_acf_export_columns_register () {
+    function columns_register () {
 
         $column_layouts = array();
 
@@ -20,6 +20,7 @@
             'key' => 'group_5899b218a4323',
             'title' => '[Vanilla] 3. Columns',
             'fields' => array(
+                // Generic column contents.
                 array(
                     'layouts' => $column_layouts,
                     'min' => 0,
@@ -38,6 +39,8 @@
                         'id' => '',
                     ),
                 ),
+
+                // Column 1, a clone of the generic column contents.
                 array(
                     'clone' => array(
                         0 => 'field_5899b26a8ac68',
@@ -59,6 +62,7 @@
                         'id' => '',
                     ),
                 ),
+                // Column 2, a clone of the generic column contents.
                 array(
                     'clone' => array(
                         0 => 'field_5899b26a8ac68',
@@ -80,6 +84,7 @@
                         'id' => '',
                     ),
                 ),
+                // Column 3, a clone of the generic column contents.
                 array(
                     'clone' => array(
                         0 => 'field_5899b26a8ac68',
@@ -101,6 +106,7 @@
                         'id' => '',
                     ),
                 ),
+                // Column 4, a clone of the generic column contents.
                 array(
                     'clone' => array(
                         0 => 'field_5899b26a8ac68',
@@ -122,6 +128,7 @@
                         'id' => '',
                     ),
                 ),
+                // Column 5, a clone of the generic column contents.
                 array(
                     'clone' => array(
                         0 => 'field_5899b26a8ac68',
@@ -143,12 +150,14 @@
                         'id' => '',
                     ),
                 ),
+
+                // Single column contents, a clone of just column 1.
                 array(
                     'clone' => array(
                         0 => 'field_589bc7a447fbd',
                     ),
-                    'prefix_label' => 1,
-                    'prefix_name' => 1,
+                    'prefix_label' => 0,
+                    'prefix_name' => 0,
                     'display' => 'group',
                     'layout' => 'table',
                     'key' => 'field_589bcdba896be',
@@ -164,13 +173,14 @@
                         'id' => '',
                     ),
                 ),
+                // Two columns contents, a clone of columns 1, 2.
                 array(
                     'clone' => array(
                         0 => 'field_589bc7a447fbd',
                         1 => 'field_589bcb1e47fbe',
                     ),
-                    'prefix_label' => 1,
-                    'prefix_name' => 1,
+                    'prefix_label' => 0,
+                    'prefix_name' => 0,
                     'display' => 'group',
                     'layout' => 'table',
                     'key' => 'field_589bcdf7896bf',
@@ -186,14 +196,15 @@
                         'id' => '',
                     ),
                 ),
+                // Three columns contents, a clone of columns 1, 2,3.
                 array(
                     'clone' => array(
                         0 => 'field_589bc7a447fbd',
                         1 => 'field_589bcb1e47fbe',
                         2 => 'field_589bcb4047fbf',
                     ),
-                    'prefix_label' => 1,
-                    'prefix_name' => 1,
+                    'prefix_label' => 0,
+                    'prefix_name' => 0,
                     'display' => 'group',
                     'layout' => 'table',
                     'key' => 'field_589bce52896c0',
@@ -209,6 +220,7 @@
                         'id' => '',
                     ),
                 ),
+                // Four columns contents, a clone of columns 1, 2, 3, 4.
                 array(
                     'clone' => array(
                         0 => 'field_589bc7a447fbd',
@@ -216,8 +228,8 @@
                         2 => 'field_589bcb4047fbf',
                         3 => 'field_589bcbba47fc1',
                     ),
-                    'prefix_label' => 1,
-                    'prefix_name' => 1,
+                    'prefix_label' => 0,
+                    'prefix_name' => 0,
                     'display' => 'group',
                     'layout' => 'table',
                     'key' => 'field_589bcee4896c1',
@@ -233,6 +245,7 @@
                         'id' => '',
                     ),
                 ),
+                // Five columns contents, a clone of columns 1, 2, 3, 4, 5.
                 array(
                     'clone' => array(
                         0 => 'field_589bc7a447fbd',
@@ -241,8 +254,8 @@
                         3 => 'field_589bcbba47fc1',
                         4 => 'field_589bcb6647fc0',
                     ),
-                    'prefix_label' => 1,
-                    'prefix_name' => 1,
+                    'prefix_label' => 0,
+                    'prefix_name' => 0,
                     'display' => 'group',
                     'layout' => 'table',
                     'key' => 'field_589bcf08896c3',

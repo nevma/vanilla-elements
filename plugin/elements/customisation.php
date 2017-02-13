@@ -9,7 +9,7 @@
      * 
      * @return void
      */
-    function vanilla_elements_acf_export_customisation_register () {
+    function customisation_register () {
 
         acf_add_local_field_group( array (
             'key' => 'group_589b5ff7042ef',

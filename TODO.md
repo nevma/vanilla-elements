@@ -5,6 +5,8 @@ Activate Vanilla elements on demand, perhaps via a custom taxonomy?
 Prefix everything "vanilla-elements": functions, files, actions, filters, fields
 and field groups.
 
+Hide some of the backend labels to gain editing space.
+
 --
 
 IN ORDER TO CREATE A NEW FEATURE WHAT YOU BASICALLY NEED TO DO IS CREATE THE 

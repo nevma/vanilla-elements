@@ -38,5 +38,14 @@
 
     // Setup plugin, its includes, actions and filters.
     require_once( 'vanilla-elements-init.php' );
+    require_once( 'vanilla-elements-actions.php' );
+
+
+
+    // Adds the action which registers all necessary ACF field groups and fields.
+    add_action( 'acf/init', 'vanilla_elements_init_register_fields' );
+
+    // Adds the actions which saves Vanilla elements contents in post content.
+    add_action( 'save_post', 'vanilla_elements_actions_save' );
 
 ?>
