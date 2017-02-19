@@ -1,11 +1,11 @@
-Keep default TinyMCE editor content?
+Activate Vanilla elements on demand?
 
-Activate Vanilla elements on demand, perhaps via a custom taxonomy?
+Remember whether each post is Vanilla elements enabled or not.
 
-Prefix everything "vanilla-elements": functions, files, actions, filters, fields
-and field groups.
+Hide some of the backend labels to gain space.
 
-Hide some of the backend labels to gain editing space.
+Make all fields have a codename with a prefix like `vanilla-elements` or `ve` or
+something like that.
 
 --
 

@@ -1,0 +1,67 @@
+/**
+ * The default post editor controls are shown/hidden accordingly.
+ */
+
+#post-body-content {
+    margin-bottom: 0 !important;
+}
+
+.vanilla-elements-enabled .wp-editor-container,
+.vanilla-elements-enabled .wp-editor-tabs,
+.vanilla-elements-enabled #post-status-info,
+.vanilla-elements-enabled .wp-media-buttons .button {
+    display: none;
+}
+
+.vanilla-elements-enabled #wp-content-editor-tools {
+    border-bottom: none !important;
+}
+
+
+
+/**
+ * The Vanilla elements enable/disable buttons are shown/hidden accordingly.
+ */
+
+.vanilla-elements-enable-button::before,
+.vanilla-elements-disable-button::before {
+    content: '';
+    filter: grayscale(1);
+    background-image: url(../img/vanilla-elements-icon.png);
+    background-size: contain;
+    display: inline-block;
+    vertical-align: sub;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.vanilla-elements-enable-button {
+    display: inline-block !important;
+}
+
+.vanilla-elements-disable-button {
+    display: none !important;
+}
+
+.vanilla-elements-enabled .vanilla-elements-disable-button {
+    display: inline-block !important;
+}
+
+.vanilla-elements-enabled .vanilla-elements-enable-button {
+    display: none !important;
+}
+
+
+
+/**
+ * The Vanilla elements ACF fields are shown/hidden accordingly.
+ */
+
+#acf-group_5899b21a2a5b4 {
+    display: none;
+}
+
+.vanilla-elements-enabled #acf-group_5899b21a2a5b4 {
+    display: block;
+}

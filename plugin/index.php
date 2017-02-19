@@ -1,5 +1,9 @@
 <?php
 
+    /**
+     * Vanilla elements plugin index file.
+     */
+
     // Nothing here! Nobody should access this file legitimately...
 
 ?>
